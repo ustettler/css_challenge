@@ -27,3 +27,12 @@ body {
     background-repeat: no-repeat;
 	background-size: cover;
 }
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+header i  {
+    font-size: 1.5rem;
+}
