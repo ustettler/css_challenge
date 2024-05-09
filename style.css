@@ -27,6 +27,7 @@ body {
     background-repeat: no-repeat;
 	background-size: cover;
     overflow-y: hidden;
+
 }
 
 header {
@@ -59,23 +60,38 @@ sidebar i {
     color: white;
 }
 
-photo_button i {
-  position: absolute;
-  color: white;
-  font-size: 5rem;
-  margin-left: 45%;
-  top: 900px;
+
+photo_button .small_circle{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 100px;
+    margin-left: 44.2%;
+    top: 898px;
+    z-index: 10;
+    opacity: 1;
+    border: 3px grey solid;
 }
 
-photo_button div {
+photo_button .large_circle  {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    background-color: red;
+    width: 105px;
+    height: 105px;
+    background-color: white;
     border-radius: 100px;
-    margin-left: 42.75%;
-    top: 890px;
-    opacity: 0.5;
+    margin-left: 42%;
+    top: 888px;
+    z-index: -1;
+}
+
+photo_button i {
+ font-size: 2.5rem;
+ position: absolute;
+ top: 920px;
+ left: 49.5%;
+ z-index: 100;
+ opacity: .7;
 }
 
 
