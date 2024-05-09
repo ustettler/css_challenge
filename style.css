@@ -26,6 +26,7 @@ body {
     height: 100vh;
     background-repeat: no-repeat;
 	background-size: cover;
+    overflow-y: hidden;
 }
 
 header {
@@ -42,16 +43,41 @@ header i  {
 
 
 sidebar {
+    margin-top: 30vh;
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+}
 
+sidebar i {
+margin-bottom: 50px;
 }
 
 sidebar i {
     font-size: 2rem;
     color: white;
 }
+
+photo_button i {
+  position: absolute;
+  color: white;
+  font-size: 5rem;
+  margin-left: 45%;
+  top: 900px;
+}
+
+photo_button div {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 100px;
+    margin-left: 42.75%;
+    top: 890px;
+    opacity: 0.5;
+}
+
 
 bottombar img {
     border-radius: 10px;
@@ -77,6 +103,7 @@ bottombar {
 
 bottombar p {
     padding-top: 20px;
+    font-size: 1.3rem;
 }
 
 bottombar i {
